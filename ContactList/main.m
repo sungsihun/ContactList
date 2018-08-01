@@ -32,7 +32,7 @@ int main(int argc, const char * argv[]) {
                 [list addContact:contactInput];
                 
             } else if ([menuInput isEqual:@"list"]) {
-                
+                [list showList];
             } else if ([menuInput isEqual:@"quit"]) {
                 break;
             }
